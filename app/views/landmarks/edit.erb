@@ -4,7 +4,7 @@
   <input id="hidden" type="hidden" name="_method" value="patch">
   
   <label>Landmark Name</label><br>
-  <input type="text" name="name" id="landmark_name" value="<%= @landmark.name %>"><br>
+  <input type="text" name="landmark[name]" id="landmark_name" value="<%= @landmark.name %>"><br>
 
   <label>Year Completed</label><br>
   <input type="text" name="landmark[year_completed]" id="landmark_year_completed" value="<%= @landmark.year_completed %>"><br>
