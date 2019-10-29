@@ -18,6 +18,9 @@ class LandmarksController < ApplicationController
     erb :'landmarks/edit'
   end
 
+  patch '/landmarks/:id' do 
+  end 
+
   post '/landmarks' do
     @landmark = Landmark.create(params[:landmark])
   end
